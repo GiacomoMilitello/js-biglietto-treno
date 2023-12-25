@@ -6,7 +6,7 @@ let price = (km * 0.21);
 console.log("prezzo senza sconti:", price)
 
 if (age>=18 && age<=65){
-    document.getElementById('price-generated').innerHTML='<p> Prezzo:' + " " + price1 + '</p>';
+    document.getElementById('price-generated').innerHTML='<p> Prezzo:' + " " + price + '</p>';
 } else if (age<18){
     const  juniorDiscount= price * 0.2;
     const juniorPrice = price - juniorDiscount;
